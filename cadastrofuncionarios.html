@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de funcionários</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="bodycadastro" onload="carregarDadosFuncionarios()">
+
+    <p id="textoCadastroFuncionarios">Cadastro de funcionários</p>
+
+    <input type="text" id="inputNome" placeholder="Nome">
+    <input type="text" id="inputId" placeholder="ID">
+    <input type="text" id="inputCargo" placeholder="Cargo">
+    <button id="salvarDadosFuncionario" onclick="salvarDadosFuncionarios()">Salvar dados</button>
+
+    <ul id="listaFuncionarios">
+
+    </ul>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

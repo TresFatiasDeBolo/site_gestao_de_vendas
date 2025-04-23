@@ -6,7 +6,20 @@
     <title>Controle de estoque</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="bodycontrole">
+
+    <h1 id="textoControleEstoque">Controle de estoque</h1>
+
+    <input type="text" placeholder="Nome" id="inputNomeEstoque">
+    <input type="text" placeholder="Quantidade" id="inputQuantidadeEstoque">
+    <input type="text" placeholder="Preço" id="inputPrecoEstoque">
+    <button onclick="salvarEstoque()" id="botaoSalvarEstoque">Salvar Produto</button>
+
+    <script src="script.js"></script>
+
+    <ul id="listaProdutos">
+        
+    </ul>
     
 </body>
 </html>
